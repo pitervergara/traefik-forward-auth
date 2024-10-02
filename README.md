@@ -262,7 +262,7 @@ In this example:
 
 To configure Traefik and Traefik Forward Auth in this scenario:
 
-1. If using a provider based on OAuth2 (including GitHub, Google, Microsoft Entra ID, and OpenID Connect providers), configure your authentication callback to: `https://example.com/auth/oauth2/callback`
+1. If using a provider based on OAuth2 (including GitHub, Google, Microsoft Entra ID, and OpenID Connect providers), configure your authentication callback to: `https://example.com/oauth2/callback`
 2. Configure Traefik Forward Auth with:
 
    - [`hostname`](#config-opt-hostname) (env: `TFA_HOSTNAME`): `example.com`
